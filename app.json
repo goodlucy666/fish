@@ -2,19 +2,24 @@
   "name": "vles",
   "description": "vles",
   "keywords": [
-    "vmess or vles"
+    "vles"
   ],
   "env": {
     "PROTOCOL": {
       "description": "vless",
-      "value": "",
+      "value": "vmess",
       "required": true
     },
     "UUID": {
       "description": "0ac2fa06-bc89-4c36-86d6-0c17586827e2",
       "value": "",
       "required": false
-    } 
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/app",
+      "required": true
+    }
   },
   "website": "https://github.com/goodlucy666/fish",
   "repository": "https://github.com/goodlucy666/fish",
